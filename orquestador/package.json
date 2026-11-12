@@ -1,0 +1,11 @@
+{
+  "name": "agentes-orquestador",
+  "private": true,
+  "type": "module",
+  "description": "Orquestador de Agentes GC: corre el bucle del modelo (OpenRouter, Grok con ZDR) con las herramientas del ejecutor. Solo localhost, sin estado.",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "start": "node src/principal.ts",
+    "test": "node --test pruebas/*.test.ts"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "agentes-gc-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 9941 -H 0.0.0.0",
+    "build": "next build",
+    "start": "next start -p 9941 -H 127.0.0.1",
+    "e2e": "node scripts/e2e.mjs"
+  },
+  "dependencies": {
+    "next": "^15.5.29",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "puppeteer-core": "^25.17.0",
+    "typescript": "^5.9.3"
+  }
+}

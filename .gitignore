@@ -1,0 +1,11 @@
+node_modules/
+.next*/
+bin/
+obj/
+.env*
+!.env.example
+*.log
+.tmp*/
+datos-privados/
+deploy/publicado/
+deploy/logs/

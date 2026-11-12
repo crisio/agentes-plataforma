@@ -1,0 +1,13 @@
+{
+  "name": "agentes-ejecutor",
+  "private": true,
+  "type": "module",
+  "description": "Ejecutor de Agentes GC: corre las herramientas de los agentes con credenciales de la bóveda. Solo localhost.",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "start": "node src/principal.ts",
+    "test": "node --test pruebas/*.test.ts"
+  }
+}
